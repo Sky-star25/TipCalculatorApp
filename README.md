@@ -28,6 +28,8 @@ I added two visible and fully functional enhancements:
 5. The app should compile with no errors and open directly to the main calculator screen.
 
 ## APK
+Download the APK:
+[app-release.apk](app-release.apk)
 
 
 ## Screenshots
