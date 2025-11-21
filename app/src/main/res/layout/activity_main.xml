@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Bill amount -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_bill_amount" />
+
+        <EditText
+            android:id="@+id/etBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_bill_amount"
+            android:inputType="numberDecimal" />
+
+        <!-- Tip percentage -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/label_tip_percent" />
+
+        <TextView
+            android:id="@+id/tvTipPercentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15%" />
+
+        <SeekBar
+            android:id="@+id/seekBarTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="30"
+            android:progress="15" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvTipDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/tip_description_default" />
+
+        <!-- Split feature -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/label_split" />
+
+        <EditText
+            android:id="@+id/etSplitCount"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="1" />
+
+        <!-- Rounding feature -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/label_round_total" />
+
+            <Switch
+                android:id="@+id/switchRoundTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Result fields -->
+        <TextView
+            android:id="@+id/tvTipAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/tip_amount_default" />
+
+        <TextView
+            android:id="@+id/tvTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/total_amount_default" />
+
+        <TextView
+            android:id="@+id/tvPerPersonAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/per_person_amount_default" />
+
+    </LinearLayout>
+</ScrollView>

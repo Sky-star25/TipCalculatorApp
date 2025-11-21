@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- App name -->
+    <string name="app_name">Tip Calculator</string>
+
+    <!-- Bill amount -->
+    <string name="label_bill_amount">Bill amount</string>
+    <string name="hint_bill_amount">Enter bill</string>
+    <string name="cd_bill_amount">Field to type your bill amount</string>
+
+    <!-- Tip percentage -->
+    <string name="label_tip_percent">Tip percentage</string>
+    <string name="cd_tip_percent">Choose tip percentage</string>
+
+    <string name="tip_description_default">Tip quality: Average</string>
+    <string name="tip_description_poor">Tip quality: Poor</string>
+    <string name="tip_description_ok">Tip quality: Okay</string>
+    <string name="tip_description_good">Tip quality: Good</string>
+    <string name="tip_description_great">Tip quality: Great</string>
+
+    <!-- Split enhancement -->
+    <string name="label_split">Split between (people)</string>
+    <string name="cd_split_count">Number of people to split the bill</string>
+
+    <!-- Rounding enhancement -->
+    <string name="label_round_total">Round total up</string>
+    <string name="cd_round_total">Toggle to round the total amount</string>
+
+    <!-- Output fields -->
+    <string name="tip_amount_default">Tip: $0.00</string>
+    <string name="total_amount_default">Total: $0.00</string>
+    <string name="per_person_amount_default">Per person: $0.00</string>
+
+</resources>
