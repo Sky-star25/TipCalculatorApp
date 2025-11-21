@@ -31,6 +31,10 @@ I added two visible and fully functional enhancements:
 
 
 ## Screenshots
+<img src="Screenshots/image1.png" width="300" />
+<img src="Screenshots/image2.png" width="300" />
+<img src="Screenshots/image3.png" width="300" />
+<img src="Screenshots/image4.png" width="300" />
 
 
 ## Video Demo
